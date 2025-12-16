@@ -5,7 +5,7 @@ This project demonstrates how combining convolutional neural networks with trans
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Single Image Super-Resolution aims to reconstruct a high-resolution image from a single low-resolution input.  
 While CNNs excel at capturing local textures, they struggle with long-range dependencies. Vision Transformers address this limitation through self-attention.
@@ -17,7 +17,7 @@ This project proposes a **CNN–ViT fusion architecture** that:
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 **Pipeline:**
 Low-Resolution Image
@@ -37,7 +37,7 @@ An architecture diagram is provided in the paper and code outputs.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - **Type:** Synthetic dataset (generated on-the-fly)
 - **HR size:** 96×96 RGB images
@@ -49,10 +49,9 @@ An architecture diagram is provided in the paper and code outputs.
 
 ---
 
-## ⚙️ Training Details
+##  Training Details
 
 - **Loss Function:** L1 loss
-- **Optimizer:** Adam
 - **Learning Rate:** 1e-4
 - **Epochs:** 5
 - **Framework:** PyTorch
@@ -60,7 +59,7 @@ An architecture diagram is provided in the paper and code outputs.
 
 ---
 
-## 📊 Results
+##  Results
 
 ### Training Convergence
 - Stable and smooth loss convergence within 5 epochs
@@ -78,7 +77,7 @@ The CNN–ViT model produces **sharper edges and enhanced textures** compared to
 
 ---
 
-## 📁 Generated Outputs
+##  Generated Outputs
 
 After running the notebook:
 - `loss_curve.png` – Training loss curve
@@ -87,7 +86,7 @@ After running the notebook:
 
 ---
 
-## 🚀 How to Run (Google Colab)
+##  How to Run (Google Colab)
 
 1. Open the provided notebook in **Google Colab**
 2. Run all cells sequentially
@@ -97,7 +96,7 @@ No external dataset download required.
 
 ---
 
-## 📄 Paper
+##  Paper
 
 This project is accompanied by a **mini research paper** formatted using **Springer LNCS** style, including:
 - Methodology
