@@ -20,16 +20,27 @@ This project proposes a **CNN–ViT fusion architecture** that:
 ##  Architecture
 
 **Pipeline:**
+
 Low-Resolution Image
+
 ↓
+
 CNN Feature Extraction
+
 ↓
+
 Vision Transformer Encoder
+
 ↓
+
 Feature Fusion (1×1 Conv)
+
 ↓
+
 PixelShuffle Upsampling
+
 ↓
+
 High-Resolution Output
 
 
